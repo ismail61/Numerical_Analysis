@@ -1,0 +1,240 @@
+error: 'xrange' undefined near line 2 column 5
+error: called from
+    Euler_Method at line 2 column 4
+>> f=inline('x+y','x','y')
+f = f(x, y) = x+y
+>> Euler_Method (f,[0,1],1,0.1)
+error: 'xy' undefined near line 5 column 30
+error: called from
+    Euler_Method at line 5 column 10
+>> Euler_Method
+ 
+error: 'xrange' undefined near line 2 column 5
+error: called from
+    Euler_Method at line 2 column 4
+>> Euler_Method (f,[0,1],1,0.1)
+retval =
+ 
+   0.00000   1.00000
+   0.10000   1.10000
+   0.20000   1.22000
+   0.30000   1.36200
+   0.40000   1.52820
+   0.50000   1.72102
+   0.60000   1.94312
+   0.70000   2.19743
+   0.80000   2.48718
+   0.90000   2.81590
+   1.00000   3.18748
+ 
+ans =
+ 
+   0.00000   1.00000
+   0.10000   1.10000
+   0.20000   1.22000
+   0.30000   1.36200
+   0.40000   1.52820
+   0.50000   1.72102
+   0.60000   1.94312
+   0.70000   2.19743
+   0.80000   2.48718
+   0.90000   2.81590
+   1.00000   3.18748
+ 
+>> m=Euler_Method (f,[0,1],1,0.1)
+retval =
+ 
+   0.00000   1.00000
+   0.10000   1.10000
+   0.20000   1.22000
+   0.30000   1.36200
+   0.40000   1.52820
+   0.50000   1.72102
+   0.60000   1.94312
+   0.70000   2.19743
+   0.80000   2.48718
+   0.90000   2.81590
+   1.00000   3.18748
+ 
+m =
+ 
+   0.00000   1.00000
+   0.10000   1.10000
+   0.20000   1.22000
+   0.30000   1.36200
+   0.40000   1.52820
+   0.50000   1.72102
+   0.60000   1.94312
+   0.70000   2.19743
+   0.80000   2.48718
+   0.90000   2.81590
+   1.00000   3.18748
+ 
+>> plot(m(:,1),m(:,2)
+plot(m(:,1),m(:,2))
+parse error:
+ 
+  syntax error
+ 
+>>> plot(m(:,1),m(:,2))
+       ^
+ 
+>> plot(m(:,1),m(:,2))
+>> plot(m(:,1),m(:,2))
+>> edit Runge_Kutta_Method.m
+ 
+>> Runge_Kutta_Method
+ 
+error: 'xrange' undefined near line 3 column 5
+error: called from
+    Runge_Kutta_Method at line 3 column 4
+>> Runge_Kutta_Method(f,[0,1],1,0.1)
+retval =
+ 
+   0.00000   1.00000
+   0.10000   1.11000
+   0.20000   1.24205
+   0.30000   1.39847
+   0.40000   1.58180
+   0.50000   1.79489
+   0.60000   2.04086
+   0.70000   2.32315
+   0.80000   2.64558
+   0.90000   3.01236
+   1.00000   3.42816
+ 
+ans =
+ 
+   0.00000   1.00000
+   0.10000   1.11000
+   0.20000   1.24205
+   0.30000   1.39847
+   0.40000   1.58180
+   0.50000   1.79489
+   0.60000   2.04086
+   0.70000   2.32315
+   0.80000   2.64558
+   0.90000   3.01236
+   1.00000   3.42816
+ 
+>> m=Runge_Kutta_Method(f,[0,1],1,0.1)
+retval =
+ 
+   0.00000   1.00000
+   0.10000   1.11000
+   0.20000   1.24205
+   0.30000   1.39847
+   0.40000   1.58180
+   0.50000   1.79489
+   0.60000   2.04086
+   0.70000   2.32315
+   0.80000   2.64558
+   0.90000   3.01236
+   1.00000   3.42816
+ 
+m =
+ 
+   0.00000   1.00000
+   0.10000   1.11000
+   0.20000   1.24205
+   0.30000   1.39847
+   0.40000   1.58180
+   0.50000   1.79489
+   0.60000   2.04086
+   0.70000   2.32315
+   0.80000   2.64558
+   0.90000   3.01236
+   1.00000   3.42816
+ 
+>> plot(m(:,1),m(:,2))
+>> Euler_Method
+ 
+error: 'xrange' undefined near line 2 column 5
+error: called from
+    Euler_Method at line 2 column 4
+>> Euler_Method (f,[0,1],1,0.1)
+ans =  2
+ans =  2
+ans =  2
+ans =  2
+ans =  2
+ans =  2
+ans =  2
+ans =  2
+ans =  2
+ans =  2
+retval =
+ 
+   0.00000   1.00000
+   0.10000   1.10000
+   0.20000   1.22000
+   0.30000   1.36200
+   0.40000   1.52820
+   0.50000   1.72102
+   0.60000   1.94312
+   0.70000   2.19743
+   0.80000   2.48718
+   0.90000   2.81590
+   1.00000   3.18748
+ 
+>> Euler_Method (f,[0,1],1,0.1)
+ans =  2
+ans =  2
+ans =  2
+ans =  2
+ans =  2
+ans =  2
+ans =  2
+ans =  2
+ans =  2
+ans =  2
+retval =
+ 
+   0.00000   1.00000
+   0.10000   1.10000
+   0.20000   1.22000
+   0.30000   1.36200
+   0.40000   1.52820
+   0.50000   1.72102
+   0.60000   1.94312
+   0.70000   2.19743
+   0.80000   2.48718
+   0.90000   2.81590
+   1.00000   3.18748
+ 
+>> Euler_Method
+ 
+error: 'xrange' undefined near line 2 column 5
+error: called from
+    Euler_Method at line 2 column 4
+>> Euler_Method
+ 
+error: 'xrange' undefined near line 2 column 5
+error: called from
+    Euler_Method at line 2 column 4
+>> Euler_Method
+ 
+error: 'xrange' undefined near line 2 column 5
+error: called from
+    Euler_Method at line 2 column 4
+>> Euler_Method
+ 
+error: 'xrange' undefined near line 2 column 5
+error: called from
+    Euler_Method at line 2 column 4
+>> Euler_Method (f,[0,1],1,0.1)
+retval =
+ 
+   0.00000   1.00000
+   0.10000   1.10000
+   0.20000   1.22000
+   0.30000   1.36200
+   0.40000   1.52820
+   0.50000   1.72102
+   0.60000   1.94312
+   0.70000   2.19743
+   0.80000   2.48718
+   0.90000   2.81590
+   1.00000   3.18748
+ 
+>>
